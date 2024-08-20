@@ -28,7 +28,7 @@ import {
   writeBatch,
 } from "firebase/firestore";
 import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/Textarea";
+import { Textarea } from "@/components/ui/textarea";
 
 export default function Generate() {
   const { isLoaded, isSignedIn, user } = useUser();
