@@ -13,13 +13,25 @@ const HeroSection = () => {
       </p>
       <div className="flex gap-2 justify-center items-center">
         <Link href={"https://github.com/deeeeya"} target="_blank">
-          <Image src={"/Github.png"} width={50} height={50} priority />
+          <Image
+            src={"/Github (1).png"}
+            alt="github-logo"
+            width={50}
+            height={50}
+            priority
+          />
         </Link>
         <Link
           href={"https://www.linkedin.com/in/dheya-abyan-309255263/"}
           target="_blank"
         >
-          <Image src={"/Linkedin.png"} width={50} height={50} priority />
+          <Image
+            src={"/Linkedin.png"}
+            alt="linkedin-logo"
+            width={50}
+            height={50}
+            priority
+          />
         </Link>
       </div>
     </div>
