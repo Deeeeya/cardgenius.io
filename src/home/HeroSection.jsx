@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="flex gap-2 justify-center items-center">
         <Link href={"https://github.com/deeeeya"} target="_blank">
           <Image
-            src={"/Github (2).png"}
+            src={"/githublogo.svg"}
             alt="github-logo"
             width={48}
             height={48}
